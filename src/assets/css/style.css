@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.navbar{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 15px 30px;
+    width: 100%;
+}
+.logo-box{
+    max-width: 200px;
+    height: 100%;
+}
+.logo-box a{
+    width: 100%;
+    height: 100%;
+}
+.logo-box img{
+    width: 100%;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.right-side{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+.search-btn{
+    background-color: transparent;
+    border: none;
+    width: 30px;
+    height: 25px;
+    -webkit-transition: all ease 1s;
+    -o-transition: all ease 1s;
+    transition: all ease 1s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #9f9595;
+    border-radius: 10px;
+}
+.search-box{
+    position: relative;
+}
+.search-input{
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    height: 30px;
+    max-width: 150px;
+    display: none;
+    -webkit-transition: all ease-in-out 1s;
+    -o-transition: all ease-in-out 1s;
+    transition: all ease-in-out 1s;
+    border: 1px solid #ececec;
+    -webkit-box-shadow: 1px 1px 4px #9f9595;
+            box-shadow: 1px 1px 4px #9f9595;
+}
+input:focus{
+    outline: none; 
+}
+.author-box {
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+.about-page{
+    padding: 0 50px;
+    padding-top: 80px;
+}
+.add-item h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+.listing-input{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 30px 0;
+}
+.item-input{
+    height: 30px;
+    width: 150px;
+    -webkit-box-shadow: 2px 2px 10px #9cafee;
+            box-shadow: 2px 2px 10px #9cafee;
+}
+.item-btn{
+    padding: 5px 30px;
+    font-size: 18px;
+    margin-left: 10px;
+    outline: none;
+    color: #fff;
+    font-weight: normal;
+    max-width: 130px;
+    height: 45px;
+}
+.remove-item-btn{
+    background-color: red;
+}
+.add-item-btn{
+    background-color: blue;
+    padding: 5px 25px;
+}
+.active-item{
+    color: green;
+}
+.pending-item{
+    color: red;
+} 
+
+button{
+    outline: none;
+    border: none;
+}
